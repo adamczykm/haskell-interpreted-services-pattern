@@ -21,9 +21,9 @@ with access to abstracted languages grouped in so called services.
 
 Each service is an interpreter for some top-level languages. Interpreters combine
 horizontally and vertically and thus allow for modular and cleanly defined semantics
-by using "the union architecture".
+by using "the onion architecture".
 
-The actuall implementation of services is passed to the application by its "runner",
+The actual implementation of services is passed to the application by its "runner",
 without any modification in application code. This way you can create configurations
 for different protocols, databases, tests, etc.
 
