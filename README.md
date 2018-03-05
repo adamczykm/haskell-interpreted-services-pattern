@@ -1,0 +1,1 @@
+# haskell-interpreted-services-pattern
